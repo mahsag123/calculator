@@ -12,8 +12,8 @@ public class Calculator {
 		int b = 4;
 		
 		Add add = new Add();
-		int res = add.addNum(a, b);
-		System.out.println("addition of two numbers are:"+res);
+		int resAdd = add.addNum(a, b);
+		System.out.println("addition of two numbers are:"+resAdd);
 		
 		Multiply multiply = new Multiply();
 		int resMul = multiply.multiplication(a, b);
